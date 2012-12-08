@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scml>
+	<scenario>
+		<component>
+			<qa>
+				<question>Q1</question>
+				<question>Q2</question>
+				<semantic>S1</semantic>
+		        <question>aaa</question>
+				<answer>A1</answer><question>aaab</question>
+			</qa>
+		</component>
+	</scenario>
+</scml>
