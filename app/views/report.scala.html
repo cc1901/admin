@@ -8,5 +8,11 @@
 </head>
 <body>
 <h1>机器人状态：@robotsStatus.getRobotsHealthy().description()</h1>
+<span>机器人知识库：</span>
+<ul>
+    @for(knowledgeFile <- robotsStatus.getRobotsKnowledge()) {
+    <li>@knowledgeFile</li>
+    }
+</ul>
 </body>
 </html>
